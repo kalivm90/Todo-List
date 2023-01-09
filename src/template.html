@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h1 class="logo">todo</h1>
+        <div class="menu">
+            
+        </div>
+    </nav>
+
+
+    <div class="sidebar">
+        <h2 id="title">Projects</h2>
+    </div>
+
+
+<div class="main">
+
+    <div class="title-container">
+        <h1 class="main-title"></h1>
+        <hr>
+    </div>
+
+    <!-- main content -->
+    <div class="main-content">
+        <!-- add button -->
+        <button id="add-todo">
+            <img src="./assets/plus.svg" alt="add icon" id="main-add" class="svg">
+            <h4 id="add-text">Add Todo</h4>
+        </button>
+        <!-- cards -->
+        <div class="card-container">
+    
+        </div>
+    </div>  
+
+    <div class="notesFormContainer">
+        <div class="fieldContainer" id="notesForm">
+            <h2 id="formTitle">Add Todo</h2>
+            <div class="textFields">
+                <input class="field" id="titleField" type="text" placeholder="Title">
+                <textarea class="field" name="description" id="descriptionField" cols="30" rows="10" placeholder="Enter note here"></textarea>
+            </div>
+            <select name="priority" id="priority">
+                <option value="Low" selected>Low</option>
+                <option value="Urgent">Urgent</option>
+                <option value="Critical">Critical</option>
+            </select>
+            <div class="buttonContainer">
+                <button id="submitNote">Submit</button>
+                <button id="cancelNote">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+    <footer>
+        <p>Kalivm90</p>
+    </footer>
+</body>
+</html>
